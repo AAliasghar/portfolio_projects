@@ -1,11 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>about page</title>
-  </head>
-  <body>
-    <h1>about page</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aliasghar Asgharinia || About</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+  <!-- css -->
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="nav" id="nav">
+    <div class="nav-center">
+      <!-- nav header -->
+      <div class="nav-header">
+        <img src="./images/Logo_ali.png" alt="nav logo" class="nav-logo">
+        <button class="nav-btn" id="nav-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <!-- nav-links -->
+      <ul class="nav-links">
+        <li><a href="home.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- end of navbar -->
+  <!-- sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div>
+      <button class="close-btn" id="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+      <!-- nav-links -->
+      <ul class="sidebar-links">
+        <li><a href="home.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      <!-- social icons -->
+      <ul class="social-icons">
+        <li><a href="https://github.com/AAliasghar" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li><a href="https://linkedin.com/in/aasgharinia" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- end of sidebar -->
+
+  <section class="section single-page">
+    <!-- section title -->
+    <div class="section-title">
+      <h1>about me</h1>
+      <div class="underline"></div>
+    </div>
+    <!-- end of ection title -->
+    <div class="section-center page-info">
+      <p>I am a passionate Java and Database Developer with a strong focus on building scalable and efficient
+        solutions using
+        Spring Boot. With extensive experience as a Software Engineer and Full-Stack Developer, I have worked on a
+        variety of
+        projects ranging from complex web applications to backend systems.</p>
+      <p>
+        In my career, I’ve been involved in full-stack web development, leveraging modern technologies to deliver
+        high-quality
+        solutions. I have a deep understanding of database management, ensuring data integrity and optimal performance
+        in all my
+        applications.
+        My goal is to continuously improve and
+        stay up-to-date with the latest technologies to deliver innovative solutions.</p>
+      <p>Through my diverse project experience, I’ve honed my ability to develop robust applications from the ground
+        up,
+        handling
+        everything from frontend development to backend logic and database architecture.</p>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <!-- social icons -->
+    <ul class="social-icons">
+      <li><a href="https://github.com/AAliasghar" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li><a href="https://linkedin.com/in/aasgharinia" class="social-icon">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+    </ul>
+    <p>&copy; <span id="date"></span> Aliasghar Asgharinia. all rights reserved</p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+
 </html>
